@@ -32,14 +32,14 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rb (0 0 0 / 02.);
+    border: 1px solid rba (0 0 0 / 02.);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 
-main img {
+aside img {
     width: 200px;
     height: auto;
 }
