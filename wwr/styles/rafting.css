@@ -279,12 +279,12 @@ footer p {
 .form-row {
   display: flex;
   align-items: center;
+  width: 100%;
   gap: 1rem;
 }
 
 .form-row label {
   width: 100px;
-  font-weight: bold;
 }
 
 .form-row input[type="text"],
@@ -296,7 +296,11 @@ footer p {
 .radio-group {
   display: flex;
   flex-direction: column;
-  gap: 0.rem;
+  gap: 1rem;
+}
+
+.radio-group label {
+  white-space: nowrap; 
 }
 
 textarea {
