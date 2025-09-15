@@ -25,31 +25,42 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="White water rafting adventure">
-            <h1>WWR Rafting Adventures</h1>
-            <article>
-                <img src="images/happy-client.jpg" alt="Happy Rafting Client">
-                <p>Welcome to WWR Rafting! Our mission is to provide thrilling, safe, and unforgettable white water
-                    rafting experiences for adventurers of all ages.</p>
-            </article>
-        </div>
+        <section class="contact-info">
+            <h2>Our Office</h2>
+            <p><strong>Address:</strong> 123 River Lane, Rapids City, CO 80000</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@wwrrafting.com</p>
+        </section>
 
-        <section class="history">
-            <h2>History</h2>
-            <div>
-                <p>
-                    Founded in 2010, WWR Rafting has provided hundreds of unforgettable rafting trips.
-                    Our professional have extensive experience navigating thrilling rapids.
-                    We focus on safety, fun, and creating memorable experiences for adventurers.
-                </p>
-                <img src="images/history.jpg" alt="Rafting history" class="history-img">
-                <p>
-                    Our experienced guides ensure safety and fun on every adventure. Come join us on the water!
-                    Each trip is designed to challenge and excite, while providing a safe environment.
-                    We also educate our guests on river ecology and local wildlife.
-                </p>
-            </div>
+        <section class="contact-form">
+
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+
+                <p>Purpose of your message:</p>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get In Touch!</button>
+            </form>
         </section>
 
         <section class="team">
@@ -57,15 +68,15 @@
             <div>
                 <figure>
                     <img src="images/employee1.jpg" alt="Emily - Tour Manager">
-                    <figcaption>Emily - Tour Manager</figcaption>
+                    <figcaption>Emily - Manager</figcaption>
                 </figure>
                 <figure>
                     <img src="images/employee2.jpg" alt="Jake - Lead Guide">
-                    <figcaption>Jake - Lead Guide</figcaption>
+                    <figcaption>Jake - Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee3.jpg" alt="Samantha - Reservations">
-                    <figcaption>Samantha - Reservations</figcaption>
+                    <img src="images/employee3.jpg" alt="Monkey - Reservations">
+                    <figcaption>Monkey - Bill</figcaption>
                 </figure>
             </div>
         </section>
