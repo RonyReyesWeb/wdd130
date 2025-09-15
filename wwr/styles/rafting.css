@@ -26,6 +26,16 @@ header {
   overflow-x: hidden;
 }
 
+header img {
+  float: right;
+  width: 90px;
+  height: 85px;
+  border: 2px solid #ccc;               
+  margin: 10px;   
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;  
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -44,22 +54,6 @@ footer p {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-}
-
-
-header {
-    grid-template-columns: 250px 1fr;
-    overflow-x: hidden;
-  }
-
-  header img {
-  float: right;
-  width: 90px;
-  height: 85px;
-  border: 2px solid #ccc;               
-  margin: 10px;   
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
-  display: block;  
 }
 
 .option {
