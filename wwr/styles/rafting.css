@@ -264,7 +264,7 @@ footer p {
 }
 
 .form-container {
-    width: 400px;
+  width: auto;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -273,13 +273,6 @@ footer p {
 .form-container form {
   display: flex;
   flex-direction: column;
-}
-
-.form-container label,
-.form-container input,
-.form-container textarea,
-.form-container button {
-  margin-bottom: 1rem;
 }
 
 .form-container input[type="text"],
