@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #1c86c4a9; /* forest green */
+  --primary-color: #151d22a9; /* forest green */
   --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #d6e415; /* light golden yellow */
+  --accent2-color: white; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -49,6 +49,7 @@ footer {
 }
 
 footer p {
+    background-color: #333; 
     margin: 0;
     position: absolute;
     left: 50%;
@@ -66,6 +67,7 @@ footer p {
 }
 
 .option a {
+    background-color: #333; 
     display: block;
     padding: 20px;
     text-decoration: none;
@@ -333,14 +335,14 @@ textarea {
 
 button {
   padding: 0.7rem;
-  background-color: #007BFF;
+  background-color: #022501; /* Medium blue */
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+background-color: #4493e7; /* Medium blue */
 }
 
 table {
